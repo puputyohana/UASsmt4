@@ -84,7 +84,7 @@
                 <?php } elseif ($this->session->userdata('level') == 2) { ?>
                     <li><?php echo anchor('Admin/Siswa', '<em class="fa fa-calendar">&nbsp;</em>Data siswa'); ?></li>
                     <li><?php echo anchor('Admin/Penilaian', '<em class="fa fa-clone">&nbsp;</em>Penilaian Siswa'); ?></li>
-                    <li><?php echo anchor('Admin/cetaknilai', '<em class="fa fa-clone">&nbsp;</em>Cetak Nilai Siswa'); ?></li>
+                    <li><?php echo anchor('Admin/cetaknilai', '<em class="fa fa-clone">&nbsp;</em>Cetak Daftar Siswa'); ?></li>
                     <li><li><?php echo anchor('Admin/Logout', '<em class="fa fa-power-off">&nbsp;</em> Logout'); ?></li>
                 <?php } elseif ($this->session->userdata('level') == 0) 
                          redirect('Auth');
